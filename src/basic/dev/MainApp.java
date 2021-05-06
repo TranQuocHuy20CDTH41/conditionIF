@@ -20,9 +20,8 @@ public class MainApp {
 		 * cau b
 		 */
 		int n;
-		Scanner AM = new Scanner(System.in);
 		System.out.println("Nhap gia tri cho n: ");
-		n = AM.nextInt();
+		n = sc.nextInt();
 		if (n % 3 == 0)
 			System.out.println("n chia het cho 3");
 				if (n % 5 == 0)
@@ -33,11 +32,10 @@ public class MainApp {
 		 * cau c
 		 */
 		int thang, nam;
-		Scanner ym = new Scanner(System.in);
 		System.out.println("Nhap vao thang: ");
-		thang = ym.nextInt();
+		thang = sc.nextInt();
 		System.out.println("Nhap vao nam: ");
-		nam = ym.nextInt();
+		nam = sc.nextInt();
 		switch(thang)
 		{
 			case 1: case 3: case 5: case 7: case 8: case 10: case 12:
@@ -59,13 +57,12 @@ public class MainApp {
 			 */
 				int a, b, c;
 				float delta, x = 1, x1 = 1, x2 = 1;
-				Scanner PT = new Scanner(System.in);
 				System.out.println("Nhap gia tri cho a = ");
-				a = PT.nextInt();
+				a = sc.nextInt();
 				System.out.println("Nhap gia tri cho b = ");
-				b = PT.nextInt();
+				b = sc.nextInt();
 				System.out.println("Nhap gia tri cho c = ");
-				c = PT.nextInt();
+				c = sc.nextInt();
 				delta = (float)(b*b)-(4*a*c);
 				if (delta > 0)
 					{
@@ -82,6 +79,7 @@ public class MainApp {
 				/**
 				 * cau e			
 				 */
+					int canh 1, canh 2, canh 3;
 					System.out.println("Nhap vao canh thu nhat cua tam giac: ");
 				    float canh1 = sc.nextFloat();
 				    
